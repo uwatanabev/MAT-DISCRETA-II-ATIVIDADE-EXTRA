@@ -1,4 +1,4 @@
-# [cite_start]MD2 - Atividade Prática: Criptografia RSA e Teoria dos Números [cite: 3]
+# MD2 - Atividade Prática: Criptografia RSA e Teoria dos Números [cite: 3]
 
 ## Informações Gerais
 * **Disciplina:** Matemática Discreta II (MD2) 
