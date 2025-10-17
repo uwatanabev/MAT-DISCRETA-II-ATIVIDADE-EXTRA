@@ -12,9 +12,8 @@
 | Nome | Matrícula |
 | :--- | :--- |
 | **Bernardo Watanabe Venzi** | **232001120** |
-| [NOME DO SEU PAR, SE HOUVER] | [MATRÍCULA DO SEU PAR] |
+| **Wallyson Paulo Costa Souza** | **222006196** |
 
-*(A atividade pode ser realizada individualmente ou em dupla. O cabeçalho do código deve conter nome e matrícula.)*
 
 ## Objetivo do Projeto
 
