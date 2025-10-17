@@ -35,20 +35,16 @@ Todas as implementações foram feitas **sem o uso de bibliotecas externas de cr
 ## Instruções de Execução
 *(Adapte esta seção com base em como você estruturou seus arquivos C/C++.)*
 
-1.  **Pré-requisitos:** Compilador C/C++ (e.g., GCC, G++).
-2.  **Compilação:** Navegue até o diretório do projeto e compile os arquivos:
+1. **Pré-requisitos:** Compilador C (e.g., GCC).
+2. **Compilação:** Navegue até o diretório do projeto e compile os arquivos:
     ```bash
-    # Exemplo para um único arquivo (se for o caso)
-    g++ -o rsa_project main.cpp 
-    
-    # Exemplo para múltiplos arquivos (se for o caso)
-    g++ -o rsa_project q1_rsa.cpp q2_periodic.cpp q3_razao.cpp main.cpp
-    ```
-3.  **Execução:**
+    PS C:\Users\Administrador\Documents\GitHub\MAT-DISCRETA-II-ATIVIDADE-EXTRA> gcc Q01.c -o Q01 -lm
+    ``` 
+3. **Execução:**
     ```bash
-    ./rsa_project
+    PS C:\Users\Administrador\Documents\GitHub\MAT-DISCRETA-II-ATIVIDADE-EXTRA> .\Q01
     ```
-4.  **Interação:** O programa irá solicitar as entradas necessárias para cada questão (e.g., $N_1$ e $N_2$ para RSA, ciclos para Q02, $N$ para Q03).
+4. **Interação:** O programa irá solicitar as entradas necessárias para cada questão (e.g., $N_1$ e $N_2$ para RSA, ciclos para Q02, $N$ para Q03).
 
 ## Requisitos e Critérios de Avaliação (Lembretes)
 

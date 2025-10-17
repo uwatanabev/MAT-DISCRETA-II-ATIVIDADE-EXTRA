@@ -30,7 +30,7 @@ ll mdcComPassos (ll a, ll b) {
 }
 
 /**
- * @brief Algoritmo Estendido de Euclides com passos (simplificado aqui).
+ * @brief Algoritmo Estendido de Euclides com passos.
  */
 ll estendido_euclides_passos(ll a, ll b, ll *x, ll *y) {
     ll x1 = 0, y1 = 1; ll xx = 1, yy = 0; 

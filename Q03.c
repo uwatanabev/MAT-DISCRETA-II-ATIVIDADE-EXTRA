@@ -107,7 +107,6 @@ void run_questao03() {
     
     double razao = 0.0;
     if (tau_n != 0) {
-        // CORREÇÃO DE EXIBIÇÃO: Usamos 'double' para a divisão e 'fabs' para garantir positividade.
         razao = (double)sigma_n / tau_n;
     }
     
