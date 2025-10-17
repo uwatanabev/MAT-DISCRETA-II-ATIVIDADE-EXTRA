@@ -23,9 +23,7 @@ void run_etapa1_test(ll *p_out, ll *q_out);
 void run_etapa2(ll p, ll q);
 void run_etapa3(ll n, ll e, ll d, ll p, ll q);
 
-// =========================================================================
 // FUNÇÕES DE UTILIDADE E ARITMÉTICA MODULAR
-// =========================================================================
 
 /**
  * @brief Limpa o buffer de entrada.
@@ -182,10 +180,7 @@ ll inverso_modular_sem_print(ll a, ll m) {
     return inv;
 }
 
-
-// =========================================================================
 // ETAPA 1: FATORAÇÃO RHO DE POLLARD
-// =========================================================================
 
 /**
  * @brief Implementa o Método Rho de Pollard.
@@ -271,7 +266,7 @@ void run_etapa1_test(ll *p_out, ll *q_out) {
     if (fator_p_raw > 0 && fator_p_raw != n1) {
         ll fator_selecionado = 0;
         
-        // CORREÇÃO: Prioriza o fator primo.
+        // Prioriza o fator primo.
         if (is_prime(fator_p_raw)) {
             fator_selecionado = fator_p_raw;
         } else if (is_prime(fator_p_other)) {
@@ -299,7 +294,7 @@ void run_etapa1_test(ll *p_out, ll *q_out) {
     if (fator_q_raw > 0 && fator_q_raw != n2) {
         ll fator_selecionado = 0;
 
-        // CORREÇÃO: Prioriza o fator primo.
+        // Prioriza o fator primo.
         if (is_prime(fator_q_raw)) {
             fator_selecionado = fator_q_raw;
         } else if (is_prime(fator_q_other)) {
@@ -334,9 +329,7 @@ void run_etapa1_test(ll *p_out, ll *q_out) {
     *q_out = q;
 }
 
-// =========================================================================
 // ETAPA 2: GERAÇÃO DE CHAVES RSA
-// =========================================================================
 
 /**
  * @brief Executa a Etapa 2: Geração das chaves n, z, E, D.
@@ -386,9 +379,7 @@ void run_etapa2(ll p, ll q) {
     printf("Chave Privada: (n=%lld, D=%lld)\n", n, d);
 }
 
-// =========================================================================
 // ETAPA 3: CRIPTOGRAFIA/DECRIPTOGRAFIA
-// =========================================================================
 
 /**
  * @brief Potenciação Modular Otimizada (Exponenciação por Quadrados / binário).
@@ -473,7 +464,7 @@ void run_etapa3(ll n, ll e, ll d, ll p, ll q) {
     
     printf("Insira a mensagem (apenas letras MAIUSCULAS e espacos): ");
     
-    // CORREÇÃO FINAL: Usa scanf para uma leitura mais robusta após o print dos passos
+    // Usa scanf para uma leitura mais robusta após o print dos passos
     // Limpa o newline do buffer deixado pelo último printf da main
     if (scanf(" %99[^\n]", mensagem_input) != 1) { 
         printf("\n[AVISO] Nenhuma mensagem valida lida.\n");
@@ -580,10 +571,7 @@ void run_etapa3(ll n, ll e, ll d, ll p, ll q) {
     free(m_decifrados);
 }
 
-
-// =========================================================================
 // FUNÇÃO PRINCIPAL
-// =========================================================================
 
 int main() {
     ll p_rsa, q_rsa;
