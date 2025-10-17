@@ -50,7 +50,7 @@ Todas as implementações foram feitas **sem o uso de bibliotecas externas de cr
 
 Para cada questão, é crucial:
 * **Passo a Passo Visível:** Imprimir os cálculos e decisões intermediárias de forma clara, incluindo iterações de algoritmos (Pollard's $\rho$, Euclides), fatores primos e a aplicação dos teoremas modulares.
-* **Legibilidade:** Numerar passos e incluir legendas explicativas na saída[cite: 302, 303].
-* **Justificativa no Código:** Comentar as decisões de código, especialmente a escolha de teoremas modulares ou algoritmos[cite: 77, 305].
-* **Validação:** Solicitar entradas e validar restrições (ex: $N_{i}$ de 3-4 dígitos, ciclo de ano $1$ a $50$)[cite: 25, 86, 307].
-* **Confirmação de Resultados:** Confirmar que a mensagem decifrada é idêntica à original na Q01[cite: 76].
+* **Legibilidade:** Numerar passos e incluir legendas explicativas na saída.
+* **Justificativa no Código:** Comentar as decisões de código, especialmente a escolha de teoremas modulares ou algoritmos.
+* **Validação:** Solicitar entradas e validar restrições (ex: $N_{i}$ de 3-4 dígitos, ciclo de ano $1$ a $50$).
+* **Confirmação de Resultados:** Confirmar que a mensagem decifrada é idêntica à original na Q01.
