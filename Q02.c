@@ -140,4 +140,5 @@ int main() {
     run_questao02();
     printf("\n--- FIM COMPLETO DA ATIVIDADE (Questao 02) ---\n");
     return 0;
+    
 }
