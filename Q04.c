@@ -127,7 +127,7 @@ int main() {
     printf("(V) Se n1 for primo, o codigo aplica o Pequeno Teorema de Fermat para simplificar o calculo de a^x mod n1.\n");
     printf("(F) A funcao powMod implementa o calculo de potencia modular utilizando multiplicacoes diretas sem otimizacao.\n");
     printf("(V) Quando o resultado do inverso e negativo, o codigo ajusta o valor somando o modulo m0.\n");
-    printf("(F) O calculo de phi(n1) (funcao totiente de Euler) e utilizado apenas quando n1 nao e primo.\n");
+    printf("(V) O calculo de phi(n1) (funcao totiente de Euler) e utilizado apenas quando n1 nao e primo.\n");
     printf("----------------------------------------------------\n");
 
 
